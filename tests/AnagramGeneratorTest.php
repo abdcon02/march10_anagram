@@ -61,6 +61,18 @@
             $this->assertEquals("he, eh", $result);
         }
 
+        function test_CreateAnagram_WordRearrangeNoCase(){
+            //Arrange
+            $test_AnagramGenerator = new Anagram;
+            $input_anagram = "HE";
+            $input_list = "hE, ho, eh";
+            //Act
+            $result = $test_AnagramGenerator->createAnagram($input_anagram, $input_list);
+            //Assert
+            $this->assertEquals("he, eh", $result);
+        }
+
+
 
 
 
