@@ -1,5 +1,27 @@
 Test 1
-Enter test word and enter test array, and see if one letter matches
-input: "a", array("a"), output: true
+For each word in a list that matches at least one letter in a given word, the word will be displayed.
+input: "a", "a", output: "a"
 
 Test 2
+For each word in a list that does not match at least one letter in a given word, the word will not be displayed.
+input: "a", "b", output: ""
+
+Test 3
+In a list of letters, each letter that matches a given letter will be displayed.
+input: "a", "a, b", output: "a"
+
+Test 4
+In a list of words, each word that matches a given word will be displayed.
+input: "he", "he, ho", output: "he"
+
+Test 5
+In a list of words, each word that is the letters of a given word rearranged will be displayed.
+input: "he", "he, ho, eh", output: "he, eh"
+
+Test 6
+In a list of words, each word that is the letters of a given word rearranged regardless of capitalization will be displayed.
+input: "HE", "hE, ho, eh", output: "he, eh"
+
+Test 7
+In a list of words, each word that is an anagram of a given word including partial matches will be displayed.
+input: "them", "METH, he, met, ho", output: "meth, he, met"
