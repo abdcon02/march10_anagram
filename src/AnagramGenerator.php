@@ -1,31 +1,6 @@
 <?php
     class Anagram {
 
-        // function createAnagram($anagram, $list){
-        //
-        //     $listArray = explode(", ", $list);
-        //
-        //     $anaArray = str_split(strtolower($anagram));
-        //     sort($anaArray);
-        //     $outputArray = array();
-        //
-        //     foreach($listArray as $listItem){
-        //         $lowerCaseListItem = strtolower($listItem);
-        //         $split_Item = str_split($lowerCaseListItem);
-        //         sort($split_Item);
-        //
-        //
-        //
-        //         if($split_Item == $anaArray){
-        //
-        //             array_push($outputArray, $lowerCaseListItem);
-        //         }
-        //     }
-        //
-        //     return implode(", ", $outputArray);
-        //
-        // }
-
         function createAnagram($anagram, $list){
 
             $listArray = explode(", ", $list);

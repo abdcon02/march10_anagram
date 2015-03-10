@@ -1,0 +1,5 @@
+Test 1
+Enter test word and enter test array, and see if one letter matches
+input: "a", array("a"), output: true
+
+Test 2
